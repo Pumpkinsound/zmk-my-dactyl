@@ -4,12 +4,10 @@ on:
   push:
     paths:
       - config/**
-      - .github/workflows/build-user-config.yml
+      - .github/workflows/build.yml
       - west.yml
   workflow_dispatch:
 
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    with:
-      build_file: build.yaml
