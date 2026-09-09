@@ -45,7 +45,7 @@
 
         lower_layer {
             bindings = <
-&soft_off_safe 0 0  &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &soft_off_safe 0 0
+&soft_off_safe 0 0  &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans              &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans              &trans             &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans              &bt_safe BT_CLR 0  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
